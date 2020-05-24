@@ -20,3 +20,9 @@ header{
   background-image: linear-gradient(#4e69a2,#3b5998 50%);
   height: 82px;
 }
+
+.container{
+  color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+}
