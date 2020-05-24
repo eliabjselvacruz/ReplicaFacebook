@@ -1,4 +1,22 @@
-header {
+html{
+  box-sizing: border-box;
+}
+
+*, *::before, *:after{
+  box-sizing: inherit;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+header{
   background-image: linear-gradient(#4e69a2,#3b5998 50%);
   height: 82px;
 }
