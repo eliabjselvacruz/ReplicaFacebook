@@ -35,9 +35,45 @@ header{
 
 .barra{
   padding-top: 12px;
+  display: grid;
+  grid-template-columns: 540px 1fr;
 }
 
 .barra img{
   margin-top: 18px;
   width: 170px;
+}
+
+.inicio-sesion{
+  display: grid;
+  grid-template-columns: 175px 220px 50px;
+}
+
+.inicio-sesion label{
+  margin-bottom: 4px;
+  color: white;
+  font-size: 12px;
+  display: block;
+}
+
+.inicio-sesion input{
+  width: 150px;
+  height: 23px;
+  border: 1px solid #1b2a5b;
+}
+
+:focus{
+  outline: 0;
+}
+
+.inicio-sesion a{
+  margin-top: 2px;
+  text-decoration: none;
+  font-size: 12px;
+  display: block;
+  color: #9cb4d8;
+}
+
+.inicio-sesion a:hover{
+  text-decoration: underline;
 }
