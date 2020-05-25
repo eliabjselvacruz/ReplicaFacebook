@@ -33,3 +33,12 @@ header{
   max-width: 1000px;
   margin: 0 auto;
 }
+
+.barra{
+  padding-top: 12px;
+}
+
+.barra img{
+  margin-top: 18px;
+  width: 170px;
+}
