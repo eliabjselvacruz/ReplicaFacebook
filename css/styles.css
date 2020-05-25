@@ -77,3 +77,23 @@ header{
 .inicio-sesion a:hover{
   text-decoration: underline;
 }
+
+.boton{
+  display: flex;
+  align-items: center;
+}
+
+.inicio-sesion button{
+  width: 50px;
+  height: 24px;
+  font-size: 12.5;
+  font-weight: 600;
+  background: #4267b2;
+  border: 1px solid #29487d;
+  color: white;
+  cursor: pointer;
+}
+
+.inicio-sesion button:hover{
+  background-color: #365899;
+}
