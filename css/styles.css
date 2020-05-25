@@ -1,3 +1,9 @@
+:root {
+  --fp: 'Open Sans', sans-serif;
+  --fs: 'PT Sans', sans-serif;
+  --azulHeader: linear-gradient(#4e69a2,#3b5998 50%);
+}
+
 html{
   box-sizing: border-box;
 }
@@ -14,10 +20,11 @@ html{
 body{
   padding: 0;
   margin: 0;
+  font-family: var(--fp);
 }
 
 header{
-  background-image: linear-gradient(#4e69a2,#3b5998 50%);
+  background-image: var(--azulHeader);
   height: 82px;
 }
 
