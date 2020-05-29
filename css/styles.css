@@ -97,3 +97,42 @@ header{
 .inicio-sesion button:hover{
   background-color: #365899;
 }
+
+main{
+  background: linear-gradient(white, #D3D8E8);
+  padding-bottom: 30px;
+}
+
+#img-mundo p{
+  color: #0e385f;
+  font-family: var(--fs);
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+#img-mundo img{
+  width: 537px;
+}
+
+.body{
+  display: grid;
+  grid-template-columns: 580px 400px;
+}
+
+.titulo-registro{
+  padding: 20px 0;
+}
+
+.registro h2{
+  font-size: 36px;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.registro p{
+  font-size: 18px;
+}
