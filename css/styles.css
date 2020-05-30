@@ -92,6 +92,7 @@ header{
   border: 1px solid #29487d;
   color: white;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .inicio-sesion button:hover{
