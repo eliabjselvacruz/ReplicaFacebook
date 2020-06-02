@@ -137,3 +137,25 @@ main{
 .registro p{
   font-size: 18px;
 }
+
+.form-registro input{
+  font-size: 18px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #bdc7dB;
+  margin: 0 0 10px;
+  width: 100%;
+}
+
+.form-registro input::-webkit-input-placeholder{
+  color: #999;
+}
+
+.nom-ape{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nom-ape input{
+  width: 195px;
+}
