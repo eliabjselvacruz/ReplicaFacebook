@@ -159,3 +159,62 @@ main{
 .nom-ape input{
   width: 195px;
 }
+
+.form-registro legend{
+  margin: 10px 0 5xp;
+  color:#90949c;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.fecha-nac{
+  display: flex;
+}
+
+.div-fecha-nac select{
+  padding: 6px 11.5px 6px 5px;
+  font-size: 13px;
+  height: 30px;
+  border: 1px solid #ccd0d5;
+}
+
+.year{
+  margin-right: 10px;
+}
+
+.div-interrogante{
+  display: flex;
+  align-items: center;
+}
+
+.registro img{
+  width: 16px;
+  height: 16px;
+}
+
+.sexo{
+  margin-bottom: 10px;
+}
+
+.sexo legend{
+  margin-bottom: 10px;
+}
+
+.sexo span{
+  margin-right: 10px;
+  position: relative;
+}
+
+.sexo input{
+  position: absolute;
+  width: inherit;
+  top: 0;
+}
+
+.sexo label{
+  margin-left: 15px;
+  color: #000;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 0 10px 0 3px;
+}
