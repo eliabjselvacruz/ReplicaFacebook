@@ -233,6 +233,10 @@ main{
   text-decoration: none;
 }
 
+.form-registro a:hover{
+  text-decoration: underline;
+}
+
 .form-registro button{
   margin: 20px 0 25px;
   font-size: 19px;
@@ -249,4 +253,21 @@ main{
   letter-spacing: 1px;
   position: relative;
   text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  font-weight: 500;
+}
+
+.form-registro button:hover{
+  background: linear-gradient(#79bc64, #578843);
+}
+
+.texto-final{
+  border-top: 1px solid #dddfe2;
+  color: #666;
+  font-size: 12.5px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.texto-final a:hover{
+  text-decoration: underline;
 }
